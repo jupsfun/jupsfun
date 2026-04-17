@@ -1,34 +1,22 @@
-```
- ██╗██╗   ██╗██████╗ ███████╗
- ██║██║   ██║██╔══██╗██╔════╝
- ██║██║   ██║██████╔╝███████╗
-██╗██║██║   ██║██╔═══╝ ╚════██║
-╚█████║╚██████╔╝██║     ███████║
- ╚════╝ ╚═════╝ ╚═╝     ╚══════╝
-```
+### hey
 
-### `> building on solana`
+i build infrastructure for token launches on solana.
 
-core contributor — token infrastructure, DeFi tooling, launchpad systems.
+currently focused on **[cli-jups](https://github.com/jupsfun/cli-jups)** — a cli for deploying tokens via meteora dynamic bonding curves, claiming fees, and managing pools from the terminal.
 
-```
-stack:
-  runtime    → node.js, typescript
-  chain      → solana, anchor, web3.js
-  protocols  → meteora dbc, jupiter, raydium
-  infra      → vps, pm2, nginx, supabase
-  frontend   → vanilla js, minimal deps
-```
+#### areas of work
+
+| area | details |
+|------|---------|
+| **token deployment** | mint creation, metadata, locked liquidity pools via meteora dbc |
+| **on-chain fee systems** | creator trading fees, auto-claim, quote/base fee splitting |
+| **trade execution** | jupiter v6 integration, auto-buy on pool creation, slippage control |
+| **pool management** | bonding curve config, damm v2 migration, compute budget tuning |
+
+#### stack
+
+`typescript` · `@solana/web3.js` · `@meteora-ag/dynamic-bonding-curve-sdk` · `jupiter api` · `node.js`
 
 ---
 
-#### what i build
-
-- **token launchpads** — one-click deploy with locked liquidity via meteora dynamic bonding curves
-- **on-chain fee systems** — creator earn, holder earn, buyback mechanisms
-- **trading infrastructure** — sniper protection, auto-buy in single tx, vanity mint addresses
-- **sdk integrations** — meteora dbc sdk, jupiter swap api, solana spl-token
-
----
-
-<sub>no frameworks. no bloat. just code that ships.</sub>
+<sub>[@jupsfun](https://github.com/jupsfun)</sub>
