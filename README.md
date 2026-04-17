@@ -1,8 +1,4 @@
-### hey
-
-i build infrastructure for token launches on solana.
-
-currently focused on **[cli-jups](https://github.com/jupsfun/cli-jups)** — a cli for deploying tokens via meteora dynamic bonding curves, claiming fees, and managing pools from the terminal.
+Currently focused on **[cli-jups](https://github.com/jupsfun/cli-jups)** — a cli for deploying tokens via meteora dynamic bonding curves, claiming fees, and managing pools from the terminal.
 
 #### areas of work
 
